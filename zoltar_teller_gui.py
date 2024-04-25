@@ -5,6 +5,9 @@ from gtts import gTTS
 import subprocess
 import threading
 
+# from zoltar_quotes import zoltar, gifs_and_messages
+# from zoltar_gifs import zoltar_gif_label, update_zoltar_gif, display_final_happy_gif, display_final_lost_gif
+
 
 bg_color = "#0000FF"
 
@@ -83,6 +86,7 @@ gifs_and_messages = [
   ("/Users/gabrieltorres/Desktop/zoltar/transition2.gif", "Zoltar is not pleased"),
   ("/Users/gabrieltorres/Desktop/zoltar/transition3.gif", "Zoltar sees within your soul")
 ]
+
 def transition_through_gifs(gifs_and_messages):
   top_image_label_logo.pack_forget()
   zoltar_gif_label.pack_forget()
